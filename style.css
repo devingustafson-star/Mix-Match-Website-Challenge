@@ -1,0 +1,57 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Courier Prime', monospace;
+    margin: 20px;
+}
+
+.title-area {
+    text-align: center;
+    border: 2px solid #FF8C00;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #FF8C00;
+}
+
+h2 {
+    color: #FF8C00;
+}
+
+/* This puts the image next to the text */
+.box-1 {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+/* Makes the next next to the image */
+.box-2 {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+img {
+    width: 100%;
+    border: 3px solid #FF8C00;
+}
+
+
+.image-caption {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    color: #FF8C00;
+    background-color: #1a1a1a;
+    padding: 5px;
+    text-align: center;
+}
+/* Extra */
+.highlight {
+    color: #FF8C00;
+    font-weight: bold;
+}
